@@ -28,14 +28,17 @@ h2energized {
 
 #header-menu {
   background-color: rgb(244, 131, 31) !important;
+  height: 100px;
 }
 
 #titulo-menu {
   color: #fff;
+  margin: 20px 33% 10px;
+  font-size: 25px;
 }
 
 #item-home {
-  margin-top: 7%;
+  margin-top: 25%;
 }
 
 .itens-menu {
@@ -45,7 +48,7 @@ h2energized {
 
 .item-complex.item-icon-left .item-content {
   /*background-color: rgb(244, 131, 31) !important;*/
-  border: 3px solid;
+  /*border: 3px solid;*/
   border-color: rgb(244, 131, 31) !important;
 
 }
@@ -60,7 +63,8 @@ h2energized {
 /* DASHBOARD */
 
 .itens-dashboard {
-  margin: 3px 10px 2px 10px;
+  margin: 20px 10px 2px 10px;
+  box-shadow: 0px 2px 3px rgb(244, 131, 31);
   /*color: #fff;*/
 }
 
