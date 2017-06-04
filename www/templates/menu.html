@@ -1,0 +1,35 @@
+<ion-side-menus enable-menu-with-back-views="false" id="menu-lateral">
+  <ion-side-menu-content >
+    <ion-nav-bar class="bar-energized">
+      <ion-nav-back-button></ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="side-menu"></ion-nav-view>
+  </ion-side-menu-content>
+  <ion-side-menu side="left" id="side-menu">
+    <ion-header-bar class="bar-stable" id="header-menu">
+      <div class="title" id="titulo-menu">Menu</div>
+    </ion-header-bar>
+    <ion-content class="side-menu-left has-header" id="conteudo-menu">
+      <ion-list id="lista-menus">
+        <ion-item class="item-icon-left itens-menu" id="item-home" ui-sref="menu.dashboard" menu-close="">
+          <i class="icon ion-android-home"></i>Home
+        </ion-item>
+        <ion-item class="item-icon-left itens-menu" id="item-veiculos" ui-sref="menu.veiculos" menu-close="">
+          <i class="icon ion-model-s"></i>Veículos
+        </ion-item>
+        <ion-item class="item-icon-left itens-menu" id="item-abastecimentos" ui-sref="menu.abastecimentos" menu-close="">
+          <i class="icon ion-battery-low"></i>Abastecimentos
+        </ion-item>
+        <ion-item class="item-icon-left itens-menu" id="item-manutencao" ui-sref="menu.manutencao" menu-close="">
+          <i class="icon ion-medkit"></i>Manutenção
+        </ion-item>
+        <ion-item class="item-icon-left itens-menu" id="item-relatorios" ui-sref="menu.relatorios" menu-close="">
+          <i class="icon ion-pie-graph"></i>Relatórios
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
